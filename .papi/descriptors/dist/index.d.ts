@@ -1,0 +1,5 @@
+import { default as ahp } from "./ahp";
+export { ahp };
+export type * from "./ahp";
+export { DigestItem, Phase, DispatchClass, TokenError, ArithmeticError, TransactionalError, BalanceStatus, TransactionPaymentEvent, SessionEvent, XcmV3TraitsError, XcmV3JunctionBodyId, XcmV2JunctionBodyPart, XcmV3MultiassetFungibility, XcmV3MultiassetAssetInstance, XcmV3MaybeErrorCode, XcmV2OriginKind, XcmV2MultiassetWildFungibility, XcmV3WeightLimit, XcmV2MultiassetAssetId, XcmV2MultilocationJunctions, XcmV2Junction, XcmV2NetworkId, XcmV2BodyId, XcmV2MultiassetFungibility, XcmV2MultiassetAssetInstance, UpgradeGoAhead, UpgradeRestriction, BalancesTypesReasons, TransactionPaymentReleases, XcmV2Response, XcmV2TraitsError, XcmPalletVersionMigrationStage, MultiAddress, XcmV2Instruction, XcmV2MultiAssetFilter, XcmV2MultiassetWildMultiAsset, XcmV2WeightLimit, DispatchRawOrigin, MultiSignature, TransactionValidityError, TransactionValidityInvalidTransaction, TransactionValidityUnknownTransaction, TransactionValidityTransactionSource } from './common-types';
+export declare const getMetadata: (codeHash: string) => Promise<Uint8Array | null>;
